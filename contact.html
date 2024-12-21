@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us - Pet Shop</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <header class="get">
+        <div class="bars">
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+        </div> 
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <h1 class="contact">Contact Us</h1>
+    </header>
+
+    <section class="contact-info">
+        <h2 class="getin">Get in Touch</h2>
+        <p class="would">We would love to hear from you! Please fill out the form below or reach us through the provided contact information.</p>
+
+        <!-- Contact Form -->
+        <form id="contact-form" method="POST" action="contact.php">
+            <label for="name" class="name">Your Name:</label><br>
+            <input class="name" type="text" id="name" name="name" placeholder="Your Name" required><br><br>
+
+            <label for="email" class="name">Your Email:</label><br>
+            <input class="name" type="email" id="email" name="email" placeholder="Your Email" required><br><br>
+
+            <label class="name" for="message">Message:</label><br>
+            <textarea class="name" id="message" name="message" placeholder="Your Message" required></textarea><br><br>
+
+            <button class="name" type="submit">Send Message</button>
+        </form>
+
+        <!-- Error Message -->
+        <p id="error-message" style="color: red;"></p>
+
+        <!-- Additional Contact Information -->
+        <div class="address">
+            <h3>Our Address</h3>
+            <a href="https://www.google.com/maps?q=Vijaynagar+2nd+stage,+Hassan,+573201" target="_blank" class="location-icon">
+            <i class="fa-solid fa-location-dot"></i> Vijaynagar 2nd stage, Hassan.<br>573201
+            </a>
+            
+        </div>
+
+        <div class="phone">
+            <h3>Call Us</h3>
+            <i class="fa-solid fa-phone"></i>  :9988776655
+        </div>
+
+        <div class="email">
+            <h3>Email Us</h3>
+            <i class="fa-solid fa-envelope"></i>
+            <a href="mailto:APScontact@petshop.com">APScontact@petshop.com</a>
+        </div>
+        <div>
+        <!-- Instagram Icon -->
+         <p class="follow1">Follow Us:</p>
+<a href="https://www.instagram.com/_sujan_g_o_w_d_a_" target="_blank">
+    <i class="fab fa-instagram"></i>
+</a>
+
+<!-- YouTube Icon -->
+<a href="https://www.youtube.com/@akashgowda7050" target="_blank">
+    <i class="fab fa-youtube"></i>
+</a>
+</div>
+    </section>
+    <footer class="mail">
+        <p>&copy; 2024 Pet Shop. All rights reserved.</p>
+    </footer>
+</body>
+</html>

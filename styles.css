@@ -1,0 +1,355 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    color: white;
+    padding:10px;
+    text-align: center;
+    font-size:30px;
+    background-image:url(background.jpg);
+}
+
+header nav ul {
+    list-style: none;
+}
+
+.welcome{
+    font-size:50px;
+    color:rgb(2, 2, 216);
+}
+.available{
+    text-align: center;
+    font-size: 40px;
+}
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+h1, h2 {
+    color: #333;
+}
+
+.intro {
+    padding:10px;
+    text-align: center;
+    font-size:30px;
+}
+.perfect{
+    color:white;
+}
+.perfect1{
+    color: #eef;
+}
+
+section.pets-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.pet-card {
+    border: 2px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    width:300px;
+}
+.pet-card:hover{
+    background-color: #5C6BC0;
+    color: white;
+    transition:0.3s;
+}
+
+.pet-card img{
+    width: 100%;
+    object-fit: cover;
+
+}
+.pet-card img:hover{
+    transform: scale(1.1);
+    transition:0.3s;
+}
+.pets{
+      font-size:32px;
+      font-style: oblique;
+      padding:20px;
+}
+.cat{
+    background-color:#ffffff;
+    width: 300px;
+    height:100%;
+}
+.mr{
+    color:rgba(11, 3, 3, 0.986);
+    font-size: larger;
+}
+.cats{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:40%;
+}
+.cats:hover{
+    transform: scale(1.1);
+    transition:0.3s;
+}
+.dog{
+    background-color:#f5f5f5;
+    width: 300px;
+    height:100%;
+}
+.parrot{
+    background-color:#f5f5f5;
+    width: 300px;
+    height:100%;
+}
+.rabbit{
+    background-color:#f5f5f5;
+    width: 300px;
+    height:100%;
+    
+}
+.hamster{
+    background-color:#f5f5f5;
+}
+footer {
+    background-color: #3B4A99;
+    color: white;
+    font-size:20px;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background-color: #5C6BC0;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #3B4A99;
+}
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section.pet-food {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+
+}
+.food-item {
+    display: inline-block;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.food-item:hover{
+    background-color: #5C6BC0;
+    color: white;
+    transition:0.3s;
+}
+.food-item img {
+    width: 100%;
+    height: auto;
+}
+.food-item img:hover{
+    transform: scale(1.2);
+    transition:0.3s;
+}
+section.shop-info {
+    background-color: #eef;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    font-size:25px;
+}
+
+footer {
+    background-color: #0926cb;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    font-size: 40px;
+}
+.address{
+    font-size:30px;
+    color: #d80a0a;
+}
+.phone{
+    font-size:30px;
+    color: #d80a0a;
+}
+.email{
+    font-size:30px;
+    color: #d80a0a;
+}
+.mail{
+    font-size: 30px;
+    background-color: #0925b3;
+}
+.get{
+    font-size:30px;
+}
+.contact{
+    color: #deb602;
+}
+.getin{
+    font-size: 30px;
+}
+.would{
+    font-size:20px;
+}
+.aboutc{
+    font-size:30px;
+}
+.abc{
+    color: #0bf36c;
+}
+.our{
+    font-size: 30px;
+}
+.who{
+    font-size:30px;
+}
+.getin{
+    font-size:40px;
+}
+.would{
+    font-size:30px;
+}
+.name{
+    font-size:30px;
+}
+body{
+    background-color:#c9d6ff;
+}
+
+.bar{
+    color:rgb(179, 255, 0);
+    justify-content:space-between;
+    display: flex;
+}
+.bars{
+    color:gold;
+    justify-content:space-between;
+    display: flex; 
+}
+.barss{
+    color:rgb(233, 10, 85);
+    justify-content:space-between;
+    display: flex;
+}
+
+
+a {
+    color: #d80a0a;
+    font-size: 35px;
+    margin: 0 10px;
+}
+a:hover{
+    color:green;
+}
+
+
+i{
+    font-size:30px;
+}
+i:hover{
+    color:blue;
+}
+
+.follow1{
+    font-size:40px;
+    color: #df0f0f;
+    font-weight:bold;
+    margin: 0;
+    padding-top:20px;
+    padding-bottom: 10px;
+}
+.fa-instagram,.fa-youtube{
+    font-size: 70px;
+}
+
+.video1{
+    display: block;
+    margin: 0 auto;
+    width:55%;
+    border: 5px solid #9ae10ad8;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+.login{
+    color:rgb(179, 255, 0);
+}
+.buynow{
+     color: #0bf36c;
+     padding: 15px 30px;
+     font-size: 20px;
+     background-color: #3B4A99;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     transition: background-color 0.3s,transform 0.3s;
+}
+.buynow:hover{
+    background-color: #e5533d; 
+    transform: scale(1.05); 
+
+}
+/* Status Container */
+.status-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#orderStatus {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #28a745; /* Success color */
+}
